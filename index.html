@@ -3,13 +3,133 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>DevJane Portfolio Website</title>
+        <title>DevQuanda Portfolio Website</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
-
-
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        <link rel="icon" href="images/icon.png" type="logo">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        
+        <header>
+            <div class="logo">
+                <img src="images/logo.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#my-services" class="nav-link">My Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about-me" class="nav-link">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#my-work" class="nav-link">My Work</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Intro -->
+         <section class="intro" id="home">
+            <h1 class="section-title intro-title">
+                Hi, I am <strong>Kwandile Mgenge</strong>
+            </h1>
+            <p class="section-subtitle intro-subtitle">Front-End Developer</p>
+            <img src="images/Kwandile 1.jpg" class="intro-img" alt="a picture of Kwandile smiling">
+         </section>
+
+         <!-- My Services-->
+          <section class="my-services" id="my-services">
+            <h2 class="section-title services-title">What I Do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Lorem, ipsum.</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, voluptas?</p>
+                </div>
+                <div class="service">
+                    <h3>Lorem, ipsum.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, cupiditate?</p>
+                </div>
+                <div class="service">
+                    <h3>Lorem, ipsum.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, provident.</p>
+                </div>
+            </div>
+
+            <a href="#my-work" class="btn">My Work</a>
+          </section>
+
+          <!-- About Me -->
+           <section class="about-me" id="about-me">
+                <h2 class="section-title about-title">Who am I</h2>
+                <p class="section-subtitle about-subtitle"></p>
+
+                <div class="about-me-body">
+                    <p></p>
+                    <p></p>
+                </div>
+
+                <img src="images/Kwandile 2.jpg" alt="picture of Kwandile">
+           </section>
+
+           <!-- My Work -->
+            <section class="my-work" id="my-work">
+                <h2 class="section-title my-work-title">My Work</h2>
+                <p class="section-subtitle my-work-subtitle"></p>
+
+                <div class="portfolio">
+                    <!--Portfolio 1-->
+                    <a href="#" class="portfolio-item">
+                        <img src="images/Portfolio 1.jpg" alt="" class="portfolio-image">
+                    </a>
+                    <!--Portfolio 2-->
+                    <a href="#" class="portfolio-item">
+                        <img src="images/Portfolio 2.jpg" alt="" class="portfolio-image">
+                    </a>
+                    <!--Portfolio 3-->
+                    <a href="#" class="portfolio-item">
+                        <img src="images/Portfolio 3.jpg" alt="" class="portfolio-image">
+                    </a>
+                    <!--Portfolio 4-->
+                    <a href="#" class="portfolio-item">
+                        <img src="images/Portfolio 4.jpg" alt="" class="portfolio-image">
+                    </a>
+                    <!--Portfolio 5-->
+                    <a href="#" class="portfolio-item">
+                        <img src="images/Portfolio 5.jpg" alt="" class="portfolio-image">
+                    </a>
+                    <!--Portfolio 6-->
+                    <a href="#" class="portfolio-item">
+                        <img src="images/Portfolio 6.jpg" alt="" class="portfolio-image">
+                    </a>
+                </div>
+            </section>
+
+            <!-- Footer -->
+             <footer>
+                <a href="mailto:kwandilen.mgenge@gmail.com" class="footer-link">kwandilen.mgenge@gmail.com</a>
+
+                <ul class="social-list">
+                    <li class="social-list-item">
+                        <a href="#" class="social-link">CodePen</a>
+                    </li>
+                    <li class="social-list-item">
+                        <a href="#" class="social-link">LinkedIn</a>
+                    </li>
+                    <li class="social-list-item">
+                        <a href="#" class="social-link">GitHub</a>
+                    </li>
+                    <li class="social-list-item">
+                        <a href="#" class="social-link">Instagram</a>
+                    </li>
+                </ul>
+             </footer>
     </body>
 </html>
